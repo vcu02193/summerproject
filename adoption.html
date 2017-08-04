@@ -6,9 +6,23 @@
 <link rel="stylesheet" href="site.css">
 <style>
 
+nav a { text-decoration: none;
+        display: block;
+		padding: 15px;
+		-webkit-transition: background-color 2s linear;
+        -moz-transition: background-color 2s linear;
+        -o-transition: background-color 2s linear;
+       transition: background-color 2s linear;
+}
+
+nav a:link { color: #ffffff; }
+nav a:visited { color: #eaeaea; }
+nav a:hover {  color: #869dc7;
+               background-color: #eaeaea;}
+
 body {color: #003366;
 min-width: 728px;
-background-image: url(back4.jpg);
+background-image: url(images/back4.jpg);
 background-repeat: repeat-x;
 background-size: contain;
 background-attachment: fixed;
@@ -22,8 +36,8 @@ img {border-style: none;}
 tbody td {border-bottom: 1px #000000 dashed;
 padding-left: 25px;}
 </style>
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="shortcut" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<link rel="shortcut" type="image/x-icon" href="images/favicon.ico">
 
 <div id="wrapper">
   <nav>
@@ -32,23 +46,28 @@ padding-left: 25px;}
     <li>  <a href="adoption.html">Adoption Process</a> &nbsp;</li>
     <li>  <a href="availdogs.html"> Available Dogs</a> &nbsp;</li>
     <li>  <a href="donate.html">Donate</a> &nbsp;</li>
-    <li>  <a href="faq.html">FAQ</a> &nbsp;</li>
-    <li>  <a href="contact.html">Contact</a> </li>
-    <li> <a href="form1.html"> Mailing List! </a> </li>
+    <li>  <a href="faq.html">FAQ</a> &nbsp;</a></li>
+    <li>  <a href="contact.html">Contact</a> &nbsp; </li>
+    <li> <a href="form1.html"> Mailing List! </a> </li></ul>
   </nav>
   <div id="leftcol">
     <header>
-<h1><img src="French Bulldog Rescue.jpg" alt="French Bulldog Rescue" width="728" height="90"</h1>
+<h1>  <img src="images/French Bulldog Rescue.jpg" alt="French Bulldog Rescue" width="728" height="90"> </h1>
     </header>
     <main>
       <center>
-        <img src="frenchie.png" width="540" alt="Lets Play"> </center>
+        <img src="images/frenchie.png" width="540" alt="Lets Play"> <br><br>
+        <audio controls="controls">
+              <source src="audio/soundloop.mp3" type="audio/mpeg">
+       	   <source src="audio/soundloop.ogg" type="audio/ogg">
+       	   <a href="soundloop.mp3">Download the Audio File</a> (MP3)
+        </audio></center>
       <h2> Adoption Information </h2>
-      <p> Our goal is to place healthy and happy French Bulldogs into forever homes.</p>
+      <p> Our goal is to place healthy and happy French Bulldogs into forever homes. </p>
       <h3> What is the process? </h3>
       <ol>
         <li> Browse our <a href="availdogs.html"> Available Dogs</a> </li>
-        <li> Once you've found the dog of your dreams, please complete our <a href="form2.html"> adoption application.</a></li>
+        <li> Once you've found the dog of your dreams, please complete our <a href="form2.html">adoption application.</a></li>
         <li> Home Inspection (on-site) </li>
         <li> When your adoption is approved, pick up can be arranged. </li>
         <li> Time to meet your newest family member! </li>
@@ -111,10 +130,9 @@ padding-left: 25px;}
       </tr>
     </tbody>
       </table>
-      <dl>
 
       <blockquote> <center> &quot;Dogs do speak, but only to those who know how to listen.&quot; <br>
-         <cite> - Orhan Pamuk </cite> </blockquote> </div>
+         <cite> - Orhan Pamuk </cite> </center> </blockquote> </div>
 
     </main>
     <footer>
