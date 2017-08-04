@@ -8,7 +8,7 @@
 
 body {
   min-width: 728px;
-  background-image: url(back1.jpg);
+  background-image: url(images/back1.jpg);
   background-repeat: repeat-x;
   background-size: contain;
   background-attachment: fixed;
@@ -17,17 +17,36 @@ body {
   width: 550px;
   height: 550px;}
 
+  nav a { text-decoration: none;
+          display: block;
+  		padding: 15px;
+  		-webkit-transition: background-color 2s ease-in-out;
+          -moz-transition: background-color 2s ease-in-out;
+          -o-transition: background-color 2s ease-in-out;
+         transition: background-color 2s ease-in-out;
+  }
+
+  nav a:link { color: #ffffff; }
+  nav a:visited { color: #eaeaea; }
+  nav a:hover {  color: #000000;
+           background-color: #eaeaea;}
 figure {
-  width: 240px;
+  width: 250px;
   border: 3px dotted #000000;
   padding: 20px;}
   figcaption { text-align: center;
   font-family: Papyrus,fantasy; }
 
+  .r1 { transform: rotate(5deg);}
+    .r2 { transform: rotate(-5deg);}
+    .r45 { transform: rotate(45deg);}
+    .r90 { transform: rotate(90deg);}
+    .r135 { transform: rotate(135deg);}
+    .r180 { transform: rotate(180deg);}
 </style>
 
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="shortcut" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<link rel="shortcut" type="image/x-icon" href="images/favicon.ico">
 
 <div id="wrapper">
   <nav>
@@ -36,17 +55,24 @@ figure {
     <li>  <a href="adoption.html">Adoption Process</a> &nbsp;</li>
     <li>  <a href="availdogs.html"> Available Dogs</a> &nbsp;</li>
     <li>  <a href="donate.html">Donate</a> &nbsp;</li>
-    <li>  <a href="faq.html">FAQ</a> &nbsp;</li>
-    <li>  <a href="contact.html">Contact</a> </li>
-    <li> <a href="form1.html"> Mailing List! </a> </li>
+    <li>  <a href="faq.html">FAQ</a> &nbsp;</a></li>
+    <li>  <a href="contact.html">Contact</a> &nbsp;</li>
+    <li> <a href="form1.html"> Mailing List! </a> </li></ul>
   </nav>
   <div id="leftcol">
 
 <header>
-<h1> <img src="French Bulldog Rescue.jpg" alt="French Bulldog Rescue" width="720" height="90"</h1>
+<h1> <img src="images/French Bulldog Rescue.jpg" alt="French Bulldog Rescue" width="720" height="90"></h1>
 </header>
 
 <main>
+
+  <center> <br><br>
+    <img src="images/adopt.png" width="140" alt="FAQ" class="r45">
+    <img src="images/adopt.png" width="140" alt="FAQ" class="r90">
+    <img src="images/adopt.png" width="140" alt="FAQ" class="r45">
+    <img src="images/adopt.png" width="140" alt="FAQ" class="r90">
+</center>
   <h2> Available Dogs </h2>
 
 <table border ="1.25" align="center">
@@ -82,31 +108,46 @@ figure {
 </tr>
 </table>
 
-<dl>
-    <dt> <strong> Charlie </strong> </dt>
-    <dd>  <figure>
-        <img src="avail.png" width="240" alt="Charlie">
-        <figcaption>
-          Charlie, M, 5mo.
-        </figcaption>
-      </figure></dd>
-    <dt> <strong> Jules </strong> </dt>
-    <dd>  <figure>
-        <img src="avail.png" width="240" alt="Jules">
-        <figcaption>
-          Jules, F, 1yr.
-        </figcaption>
-      </figure></dd>
-    <dt> <strong> Roco </strong> </dt>
-    <dd>  <figure>
-        <img src="avail.png" width="240" alt="Roco">
-        <figcaption>
-          Roco, M, 2yrs.
-        </figcaption>
-      </figure></dd>
-  </dl>
+<center> <br>
+  <img src="images/adopt.png" width="35" alt="FAQ" class="r45">
+  <img src="images/adopt.png" width="35" alt="FAQ" class="r90">
+  <img src="images/adopt.png" width="35" alt="FAQ" class="r45">
+  <img src="images/adopt.png" width="35" alt="FAQ" class="r90">
+  <img src="images/adopt.png" width="35" alt="FAQ" class="r45">
+  <img src="images/adopt.png" width="35" alt="FAQ" class="r90">
+  <img src="images/adopt.png" width="35" alt="FAQ" class="r45">
+  <img src="images/adopt.png" width="35" alt="FAQ" class="r90">
+  <img src="images/adopt.png" width="35" alt="FAQ" class="r45">
+  <img src="images/adopt.png" width="35" alt="FAQ" class="r90">
+  <img src="images/adopt.png" width="35" alt="FAQ" class="r45">
+  <img src="images/adopt.png" width="35" alt="FAQ" class="r90">
+</center>
 
-<center><div> <blockquote> &quot;Scratch a dog and you’ll find a permanent job.&quot; <br>
+<h2> Meet Our Dogs </h2>
+<center> <dl>
+    <dt> <strong> Charlie, M, 5mo. </strong> </dt><br>
+    <dd>
+        <video controls="controls" poster="images/sparky.jpg" width="450" class="r1" >
+          <source src="video/sparky.m4v" type="video/mp4">
+          <source src="audio/sparky.ogv" type="video/ogg">
+            <a href="sparky.mov"> Sparky the Dog </a>
+          </video>
+</dd><br><br>
+    <dt> <strong> Jules, F, 1yr. </strong> </dt><br>
+    <dd>  <video controls="controls" poster="images/sparky.jpg" width="450" class="r2">
+      <source src="video/sparky.m4v" type="video/mp4">
+      <source src="audio/sparky.ogv" type="video/ogg">
+        <a href="sparky.mov"> Sparky the Dog </a>
+      </video>
+    </dd><br><br>
+    <dt> <strong> Roco, M, 2yrs. </strong> </dt><br>
+    <dd>  <video controls="controls" poster="images/sparky.jpg" width="450" class="r1">
+      <source src="video/sparky.m4v" type="video/mp4">
+      <source src="audio/sparky.ogv" type="video/ogg">
+        <a href="sparky.mov"> Sparky the Dog </a>
+      </video></dd>
+  </dl><br>
+<div> <blockquote> &quot;Scratch a dog and you’ll find a permanent job.&quot; <br>
    <cite> - Franklin P. Jones </cite> </blockquote> </div></center>
 
 </main>

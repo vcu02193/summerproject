@@ -41,7 +41,7 @@ main {
 
 img {border-style: none;}
 
-nav { float: right;
+nav { float: right; background-color: inherit;
 width: 175px; font-weight: bold;
 font-size: small;
 letter-spacing: 0.1em; }
